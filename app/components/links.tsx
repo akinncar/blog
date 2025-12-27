@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import { formatDate, getBlogPosts } from 'app/blog/utils'
-import { title } from 'process'
 
 const links = [
-  { date: new Date('2025-12-27'), url: 'https://paulgraham.com/angelinvesting.html', title: 'How to Be an Angel Investor' },
+  { date: new Date('2025-12-04'), url: 'https://randsinrepose.com/archives/bored-people-quit/', title: 'Bored People Quit' },
+  { date: new Date('2025-12-24'), url: 'https://paulgraham.com/angelinvesting.html', title: 'How to Be an Angel Investor' },
   { date: new Date('2025-12-27'), url: 'https://paulgraham.com/selfindulgence.html', title: 'How to Lose Time and Money ' }
 ]
 
