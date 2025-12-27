@@ -12,7 +12,7 @@ export default function Page() {
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
         Hello 👋
       </h1>
-      <p className="mb-4">
+      <p className="mb-8">
         {`I'm Akinn, a software engineer, music producer/dj, investor, youtuber, coffe lover, and a bunch of other things.`}
       </p>
       {/* <p className="mb-4">
