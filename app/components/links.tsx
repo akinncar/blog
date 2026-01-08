@@ -4,7 +4,9 @@ import { formatDate, getBlogPosts } from 'app/blog/utils'
 const links = [
   { date: new Date('2025-12-04'), url: 'https://randsinrepose.com/archives/bored-people-quit/', title: 'Bored People Quit' },
   { date: new Date('2025-12-24'), url: 'https://paulgraham.com/angelinvesting.html', title: 'How to Be an Angel Investor' },
-  { date: new Date('2025-12-27'), url: 'https://paulgraham.com/selfindulgence.html', title: 'How to Lose Time and Money ' }
+  { date: new Date('2025-12-27'), url: 'https://paulgraham.com/selfindulgence.html', title: 'How to Lose Time and Money' },
+  { date: new Date('2025-01-05'), url: 'https://techcrunch.com/2025/09/23/tim-chen-has-quietly-become-of-one-the-most-sought-after-solo-investors/', title: 'Tim Chen has quietly become of one the most sought-after solo investors' },
+  { date: new Date('2025-01-08'), url: 'https://simonwillison.net/2025/Dec/18/code-proven-to-work/', title: 'Your job is to deliver code you have proven to work' }
 ]
 
 export function Links() {
