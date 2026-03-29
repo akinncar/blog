@@ -11,8 +11,9 @@ export async function generateStaticParams() {
   }))
 }
 
-export function generateMetadata({ params }) {
-  let note = getNotes().find((note) => note.slug === params.slug)
+export async function generateMetadata({ params }) {
+  let { slug } = await params
+  let note = getNotes().find((note) => note.slug === slug)
   if (!note) {
     return
   }
@@ -51,8 +52,9 @@ export function generateMetadata({ params }) {
   }
 }
 
-export default function Note({ params }) {
-  let note = getNotes().find((note) => note.slug === params.slug)
+export default async function Note({ params }) {
+  let { slug } = await params
+  let note = getNotes().find((note) => note.slug === slug)
 
   if (!note) {
     notFound()
