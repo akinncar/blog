@@ -79,7 +79,7 @@ export default async function Note({ params }) {
             url: `${baseUrl}/notes/${note.slug}`,
             author: {
               '@type': 'Person',
-              name: 'My Portfolio',
+              name: 'Akinn Rosa',
             },
           }),
         }}
