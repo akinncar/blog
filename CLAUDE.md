@@ -23,7 +23,7 @@ Personal blog built with Next.js 16 (canary) and React 19.
 
 ## Workflow
 
-- For each requested task: commit the change on the working branch, open a pull request, and merge it into `main`.
+- For each requested task: commit the change and push directly to `main` (no PR).
 
 ## Notes
 
