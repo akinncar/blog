@@ -8,7 +8,7 @@ const links = [
   { date: new Date('2025-01-05'), url: 'https://techcrunch.com/2025/09/23/tim-chen-has-quietly-become-of-one-the-most-sought-after-solo-investors/', title: 'Tim Chen has quietly become of one the most sought-after solo investors' },
   { date: new Date('2025-01-08'), url: 'https://simonwillison.net/2025/Dec/18/code-proven-to-work/', title: 'Your job is to deliver code you have proven to work' },
   { date: new Date('2026-04-14'), url: 'https://www.jopcmelo.com/articles/the-challenge-of-not-making-a-decision', title: 'The challenge of not making a decision' },
-  { date: new Date('2026-06-08'), url: 'https://paulgraham.com/ds.html', title: 'Do Things that Don\'t Scale' }
+  { date: new Date('2026-06-08'), url: 'https://paulgraham.com/ds.html', title: 'Do Things that Dont Scale' }
 ]
 
 export function Links() {
