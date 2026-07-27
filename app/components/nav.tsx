@@ -13,6 +13,9 @@ const navItems = {
   '/notes': {
     name: 'notes',
   },
+  '/ideas': {
+    name: 'ideas',
+  },
 }
 
 export function Navbar() {
