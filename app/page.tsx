@@ -3,7 +3,8 @@ import Link from 'next/link'
 const routes = [
   '/blog',
   '/bookmarks',
-  '/notes'
+  '/notes',
+  '/ideas'
 ]
 
 export default function Page() {
