@@ -1,7 +1,8 @@
 import Link from 'next/link'
 
 const routes = [
-  '/blog',
+  // Hidden until the first post is ready — uncomment to re-enable
+  // '/blog',
   '/bookmarks',
   '/notes',
   '/ideas'

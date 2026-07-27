@@ -4,9 +4,10 @@ const navItems = {
   '/': {
     name: 'home',
   },
-  '/blog': {
-    name: 'blog',
-  },
+  // Hidden until the first post is ready — uncomment to re-enable
+  // '/blog': {
+  //   name: 'blog',
+  // },
   '/bookmarks': {
     name: 'bookmarks',
   },
