@@ -30,4 +30,4 @@ Personal blog built with Next.js 16 (canary) and React 19.
 
 - Next.js 16 requires `params` to be awaited in dynamic routes (`await params`)
 - Bookmarks are stored as a `links` array in `app/components/links.tsx`
-- Ideas are stored as an `ideas` array in `app/ideas/page.tsx`. Each idea has a `title` and `description`. The list is ordered newest to oldest — always add new ideas at the TOP of the array (ideas will usually be added via prompts)
+- Ideas are stored as an `ideas` array in `app/ideas/page.tsx`. Each idea has a `title` and `description`, plus optional `url` and `image` (images go in `public/ideas/`). The list is ordered newest to oldest — always add new ideas at the TOP of the array (ideas will usually be added via prompts)
