@@ -15,7 +15,7 @@ export default function Page() {
         Hello 👋
       </h1>
       <p className="mb-8">
-        {`I'm Akinn, a software engineer, music producer/dj, investor, youtuber, coffe lover, and a bunch of other things.`}
+        {`I'm Akinn, a software engineer, music producer/dj, investor, youtuber, coffee lover, and a bunch of other things.`}
       </p>
       {/* <p className="mb-4">
         {`Let me tell you about myself`}
