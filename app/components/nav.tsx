@@ -14,6 +14,9 @@ const navItems = {
   '/notes': {
     name: 'notes',
   },
+  '/journal': {
+    name: 'journal',
+  },
 }
 
 export function Navbar() {

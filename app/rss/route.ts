@@ -1,25 +1,45 @@
-import { baseUrl } from 'app/sitemap'
 import { getBlogPosts } from 'app/blog/utils'
+import { getJournalEntries } from 'app/journal/utils'
+import { baseUrl } from 'app/sitemap'
+
+function escapeXml(value: string) {
+  return value
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;')
+}
 
 export async function GET() {
-  let allBlogs = await getBlogPosts()
+  let posts = [
+    ...getBlogPosts().map((post) => ({
+      title: post.metadata.title,
+      url: `${baseUrl}/blog/${post.slug}`,
+      summary: post.metadata.summary || '',
+      publishedAt: post.metadata.publishedAt,
+    })),
+    ...getJournalEntries().map((entry) => ({
+      title: entry.metadata.title,
+      url: `${baseUrl}/journal/${entry.slug}`,
+      summary: entry.metadata.summary || '',
+      publishedAt: entry.metadata.publishedAt,
+    })),
+  ].sort((a, b) => {
+    if (new Date(a.publishedAt) > new Date(b.publishedAt)) {
+      return -1
+    }
+    return 1
+  })
 
-  const itemsXml = allBlogs
-    .sort((a, b) => {
-      if (new Date(a.metadata.publishedAt) > new Date(b.metadata.publishedAt)) {
-        return -1
-      }
-      return 1
-    })
+  const itemsXml = posts
     .map(
       (post) =>
         `<item>
-          <title>${post.metadata.title}</title>
-          <link>${baseUrl}/blog/${post.slug}</link>
-          <description>${post.metadata.summary || ''}</description>
-          <pubDate>${new Date(
-            post.metadata.publishedAt
-          ).toUTCString()}</pubDate>
+          <title>${escapeXml(post.title)}</title>
+          <link>${escapeXml(post.url)}</link>
+          <description>${escapeXml(post.summary)}</description>
+          <pubDate>${new Date(post.publishedAt).toUTCString()}</pubDate>
         </item>`
     )
     .join('\n')

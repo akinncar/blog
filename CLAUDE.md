@@ -13,6 +13,7 @@ Personal blog built with Next.js 16 (canary) and React 19.
 
 - `app/blog/` - Blog posts (MDX files in `app/blog/posts/`)
 - `app/notes/` - Notes (MDX files in `app/notes/notes/`)
+- `app/journal/` - Journal (MDX files in `app/journal/entries/`, newest first). Each file needs `title`, `publishedAt`, and `summary` frontmatter
 - `app/bookmarks/` - Bookmarks (hardcoded array in `app/components/links.tsx`)
 - `app/ideas/` - Ideas (hardcoded array in `app/ideas/page.tsx`)
 - `app/components/` - Shared components

@@ -5,6 +5,7 @@ const routes = [
   // '/blog',
   '/bookmarks',
   '/notes',
+  '/journal',
   '/ideas'
 ]
 
