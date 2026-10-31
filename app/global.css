@@ -6,6 +6,16 @@
 }
 
 :root {
+  --accent: #47a3f3;
+  --sleep-deep: #1e4d8c;
+  --sleep-light: #47a3f3;
+  --sleep-rem: #8b7ec8;
+  --sleep-awake: #d4d4d4;
+  --sleep-other: #a3a3a3;
+  --heat-0: #ececee;
+  --heat-1: #d5e9fa;
+  --heat-2: #47a3f3;
+  --heat-3: #1d4e89;
   --sh-class: #2d5e9d;
   --sh-identifier: #354150;
   --sh-sign: #8996a3;
@@ -19,6 +29,15 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --sleep-deep: #3b82f6;
+    --sleep-light: #93c5fd;
+    --sleep-rem: #d8b4fe;
+    --sleep-awake: #78716c;
+    --sleep-other: #a8a29e;
+    --heat-0: #262626;
+    --heat-1: #1e3a5f;
+    --heat-2: #3b82f6;
+    --heat-3: #bfdbfe;
     --sh-class: #4c97f8;
     --sh-identifier: white;
     --sh-keyword: #f47067;

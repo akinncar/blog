@@ -17,6 +17,9 @@ const navItems = {
   '/journal': {
     name: 'journal',
   },
+  '/health': {
+    name: 'health',
+  },
 }
 
 export function Navbar() {
