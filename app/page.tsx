@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { HealthSummary } from 'app/components/health-summary'
 
 const routes = [
   // Hidden until the first post is ready — uncomment to re-enable
@@ -6,7 +7,8 @@ const routes = [
   '/bookmarks',
   '/notes',
   '/journal',
-  '/ideas'
+  '/ideas',
+  '/health',
 ]
 
 export default function Page() {
@@ -18,6 +20,7 @@ export default function Page() {
       <p className="mb-8">
         {`I'm Akinn, a software engineer, music producer/dj, investor, youtuber, coffee lover, and a bunch of other things.`}
       </p>
+      <HealthSummary />
       {/* <p className="mb-4">
         {`Let me tell you about myself`}
       </p> */}
