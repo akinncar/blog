@@ -1,18 +1,18 @@
 {
   "date": "2026-11-11",
-  "steps": 68,
-  "calories_kcal": 11,
-  "exercise_min": 0,
-  "stress_avg": 19,
-  "resting_hr": 56,
-  "hrv_avg_ms": 61,
+  "steps": 4412,
+  "calories_kcal": 422,
+  "exercise_min": 2,
+  "stress_avg": 41,
+  "resting_hr": 57,
+  "hrv_avg_ms": 65,
   "sleep": {
-    "total_min": 332,
+    "total_min": 481,
     "deep_min": 56,
-    "light_min": 202,
-    "rem_min": 67,
-    "awake_min": 7,
+    "light_min": 306,
+    "rem_min": 71,
+    "awake_min": 48,
     "avg_hr": 58,
-    "score": 69
+    "score": 81
   }
 }
