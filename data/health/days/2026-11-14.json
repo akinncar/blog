@@ -1,9 +1,9 @@
 {
   "date": "2026-11-14",
-  "steps": null,
-  "calories_kcal": null,
-  "exercise_min": null,
-  "stress_avg": null,
+  "steps": 6272,
+  "calories_kcal": 284,
+  "exercise_min": 2,
+  "stress_avg": 26,
   "resting_hr": 54,
   "hrv_avg_ms": 69,
   "sleep": {
