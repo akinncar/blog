@@ -1,9 +1,9 @@
 {
   "date": "2026-11-17",
-  "steps": 3163,
-  "calories_kcal": 146,
+  "steps": 5531,
+  "calories_kcal": 385,
   "exercise_min": 2,
-  "stress_avg": 28,
+  "stress_avg": 35,
   "resting_hr": 57,
   "hrv_avg_ms": 59,
   "sleep": {

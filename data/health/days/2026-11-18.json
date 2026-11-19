@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-18",
+  "steps": 4470,
+  "calories_kcal": 691,
+  "exercise_min": 50,
+  "stress_avg": 36,
+  "resting_hr": 59,
+  "hrv_avg_ms": 65,
+  "sleep": {
+    "total_min": 477,
+    "deep_min": 76,
+    "light_min": 274,
+    "rem_min": 84,
+    "awake_min": 43,
+    "avg_hr": 56,
+    "score": 80
+  }
+}
